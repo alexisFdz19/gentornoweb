@@ -26,10 +26,10 @@ $email_message .= "Mensaje: " . $_POST['message'] . "\n";
 $headers = 'From: '.$_POST['email']."\r\n".
 				'Reply-To: '.$_POST['email']."\r\n".
 				'X-Mailer: PHP/'. phpversion();
-@mail($email_to, $email_subject, $email_message, $headers);
+mail($email_to, $email_subject, utf8_decode($email_message), $headers);
 
-/*require ('exito.html');
-header( "refresh:2; url=tacosfish.com" ); */
+require ('exito.html');
+header( "refresh:2; url=contacto.html");
 }
 
 ?>
