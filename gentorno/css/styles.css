@@ -114,7 +114,7 @@ TABLE OF CONTENT
 	content: '';
 	position: absolute;
 	display: block;	
-	border-bottom: 2px solid #bda87f;
+	border-bottom: 2px solid #f89e41;
 	width: 590px;
 	margin-left: -590px;
 	margin-top: -7px;
@@ -3672,7 +3672,7 @@ footer a:hover{
 	transition-duration: 0.3s; 
 }
 .contact-box-icon:hover{
-	border-bottom: 1px solid #bda87f;
+	border-bottom: 1px solid #735891;
 }
 	
 .contact-icon{
@@ -3708,7 +3708,7 @@ footer a:hover{
 .contact-info h5{
 	font-size: 17px;
 	font-weight: 600;
-	color: #bda87f;
+	color: black;
 	margin-bottom: 5px;
 }
 
@@ -3735,7 +3735,7 @@ footer a:hover{
     transition-duration: .3s;       
 }
 .contact-form input:focus{
-    border-color: #bda87f;
+    border-color: #f89e41;
 }
 
 .contact-form textarea{
@@ -3758,7 +3758,7 @@ footer a:hover{
 }
 
 .contact-form textarea:focus{
-    border-color: #bda87f;
+    border-color: #f89e41;
 }
 
 #map {
