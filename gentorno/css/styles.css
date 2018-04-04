@@ -3584,7 +3584,8 @@ footer a:hover{
 }
 
 #botonenviarenconstruccion{
-	 margin-top: 13px;
+	 margin-top: 0px;
+	 margin-left: 200px;
 }
 
 .error{

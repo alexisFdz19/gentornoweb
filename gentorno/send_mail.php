@@ -29,7 +29,7 @@ $headers = 'From: '.$_POST['email']."\r\n".
 mail($email_to, $email_subject, utf8_decode($email_message), $headers);
 
 require ('exito.html');
-header( "refresh:2; url=contacto.html");
+/*header( "refresh:2;url=contacto.html");*/
 }
 
 ?>
