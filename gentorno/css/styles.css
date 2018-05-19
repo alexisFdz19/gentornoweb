@@ -89,6 +89,17 @@ TABLE OF CONTENT
 		padding: 90px 0px 90px 0px;    
 }	
 
+.terrenos{
+
+	padding-bottom: 0px;
+	padding-top: 50px;
+	padding-left: 35px;
+}
+
+.mapasterrenos{
+
+	padding-top: 30px;
+}
 
 /*-----------------------------------------
 2. Headings
