@@ -200,22 +200,21 @@ function initMap() {
   }
   var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
-  mapTypeControlOptions: {
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      title:"Oficicina Grupo Entorno Inmobiliario",
+      mapTypeControlOptions: {
             mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
                     'styled_map']
           }
-
-  var marker = new google.maps.Marker({
-      position: myLatlng,
-      title:"Oficicina Grupo Entorno Inmobiliario"
   });
 
   // To add the marker to the map, call setMap();
   marker.setMap(map);
 
   //Associate the styled map with the MapTypeId and set it to display.
-  map.mapTypes.set('styled_map', satellite);
-  map.setMapTypeId('styled_map');
+  map.mapTypes.set('styled_map', styledMapType);
+  map.setMapTypeId('roadmap');
 
 /*==============================================
         =  Mapa 2 =
