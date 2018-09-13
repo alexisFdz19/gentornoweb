@@ -3,7 +3,7 @@
 if(isset($_POST['email'])) {
 
 // Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
-$email_to = "contacto@parapenteagencia.com";
+$email_to = "contacto@parapenteagencia.com", "gentornoinmobiliario@gentorno.com";
 $email_subject = "Contacto Grupo Entorno Inmobiliario";
 
 // Aquí se deberían validar los datos ingresados por el usuario
