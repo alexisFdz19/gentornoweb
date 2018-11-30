@@ -57,6 +57,16 @@ TABLE OF CONTENT
 ==============================================
 */
 
+/*-----------------------------------------
+1. Scrollbar personalizado
+-------------------------------------------*/
+
+body::-webkit-scrollbar-thumb{
+
+	background: #764F99;
+
+
+}
 
 /*-----------------------------------------
 1. Sections
@@ -2129,7 +2139,7 @@ footer a:hover{
 	right: 10px;
 	display:none;
 	border-radius: 50%;
-	background: #f89e41;
+	background: #764F99;
 	width: 40px;
 	height: 40px;  
 	z-index: 9999;
@@ -2144,7 +2154,7 @@ footer a:hover{
 
 .scroll-to-top:hover{
 	color: #fff;
-	background: #f89e41;
+	background: #764F99;
 }
  .scroll-to-top:hover i{
 	color: #fff;
